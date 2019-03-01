@@ -35,3 +35,16 @@ body {
 .listtitleholder {
     display: flex;
 }
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.itemname {
+    margin: 0 10px;
+}
+
+.timeslistname {
+    margin-right: 10px;
+}
