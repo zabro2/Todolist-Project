@@ -14,6 +14,11 @@ body {
 .top {
     display: flex;
     justify-content: center;
+    background-color: #e2e2e2;
+}
+
+.bottom {
+    margin: 30px 40px;
 }
 
 .tmain {
@@ -25,20 +30,81 @@ body {
 
 #newlistname {
     margin-right: 10px;
+    width: 180px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: .9em;
 }
 
 .fa-plus {
     font-size: 1.4em;
     padding: 5px;
+    transition: all .2s;
+}
+
+.fa-plus:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.fa-times {
+    color: #afafaf;
+    transition: all .2s;
+}
+
+.fa-times:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-check {
+    transition: all .2s;
+}
+
+.fa-check:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.lists {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.list {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.header {
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .listtitleholder {
+    width: 375px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listtitle {
+    font-size: 1.5em;
+}
+
+.itemholder {
+    margin: 0 10px
 }
 
 .item {
     display: flex;
     align-items: center;
+    margin: 5px;
 }
 
 .itemname {
@@ -47,4 +113,6 @@ body {
 
 .timeslistname {
     margin-right: 10px;
+    font-size: 1.4em;
+    color: #afafaf;
 }
