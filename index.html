@@ -16,6 +16,7 @@
 <body>
     <div class="container">
         <div class="top">
+            <button id='clearbtn' onclick='clearCompleted()'>Clear Completed</button>
             <div class="tmain">
                 <input id="newlistname" onkeypress="checkKey(event)" placeholder='New List Name'>
                 <i class="fas fa-plus" onclick="addNewList()"></i>
@@ -23,9 +24,6 @@
         </div>
         <div class="bottom">
             <div class="lists"></div>
-            <div class='buttonspace'>
-                <button id='clearbtn' onclick='clearCompleted()'>Clear Completed</button>
-            </div>
         </div>
     </div>
     </div>

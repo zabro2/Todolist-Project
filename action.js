@@ -33,7 +33,7 @@ function addNewItem(par) {
     itemHolder.append("<div class='item'>" +
         "<i class='fas fa-times' onclick='deleteItem(this)'>" +
         "</i>" +
-        "<div class='itemname' contenteditable='true'>sample text" +
+        "<div class='itemname' contenteditable='true'>" +
         "</div>" +
         "<i class='fas fa-check' onclick='markDone(this)'></i>" +
         "</div>");

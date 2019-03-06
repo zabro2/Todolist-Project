@@ -14,11 +14,26 @@ body {
 .top {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #e2e2e2;
 }
 
 .bottom {
     margin: 30px 40px;
+}
+
+#clearbtn {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 15px;
+    transition: all .2s;
+}
+
+#clearbtn:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
 }
 
 .tmain {
@@ -69,8 +84,8 @@ body {
 }
 
 .lists {
-    display: flex;
-    flex-flow: row wrap;
+    /* display: flex;
+    flex-flow: row wrap; */
 }
 
 .list {
@@ -81,10 +96,10 @@ body {
 }
 
 .header {
-    border: 1px solid #afafaf;
     border-radius: 10px;
     display: flex;
     justify-content: center;
+    background-color: #e2e2e2;
 }
 
 .listtitleholder {
@@ -101,19 +116,26 @@ body {
 .itemholder {
     border: 1px solid #afafaf;
     border-top: none;
-    border-radius: 0 0 10px 10px;
     margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
 }
 
 .item {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     margin: 5px;
+    width: 350px;
+    justify-content: space-between;
 }
 
 .itemname {
     margin: 0 10px;
     font-size: 1.3em;
+    border-bottom: 1px solid #AFAFAF;
+    width: 100%;
 }
 
 .timeslistname {
