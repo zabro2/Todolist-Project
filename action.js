@@ -40,11 +40,13 @@ function addNewItem(par) {
 }
 
 function deleteList(element) {
-    $(element).parent().parent().parent().remove();
+    $(element).parent().parent().parent().hide('fast');
+    //$(element).parent().parent().parent().remove();
 }
 
 function deleteItem(element) {
-    $(element).parent().remove();
+    $(element).parent().hide('fast');
+    //$(element).parent().remove();
 }
 
 function markDone(element) {
@@ -60,5 +62,5 @@ function markDone(element) {
 }
 
 function clearCompleted() {
-    $(".done").remove();
+    $(".done").hide('fast');
 }

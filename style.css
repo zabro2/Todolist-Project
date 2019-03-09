@@ -84,8 +84,9 @@ body {
 }
 
 .lists {
-    /* display: flex;
-    flex-flow: row wrap; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .list {
