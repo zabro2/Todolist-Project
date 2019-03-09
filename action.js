@@ -41,7 +41,6 @@ function addNewItem(par) {
 
 function deleteList(element) {
     $(element).parent().parent().parent().hide('fast');
-    //$(element).parent().parent().parent().remove();
 }
 
 function deleteItem(element) {
