@@ -144,3 +144,21 @@ body {
     font-size: 1.4em;
     color: #afafaf;
 }
+
+@media screen and (max-width: 400px) {
+    .bottom {
+        margin: 0;
+    }
+
+    .list {
+        width: 360px;
+    }
+
+    .listtitleholder {
+        width: 340px;
+    }
+
+    .item {
+        width: 315px;
+    }
+}
